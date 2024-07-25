@@ -16,7 +16,13 @@ Install dependencies:
 - Go to the `pipeline` folder and run `poetry install`.
 
 Formatting:
+
 For the python project go to the `pipeline` folder and execute 
 ```poetry run ruff format```
 to format the project. You can run static typechecking with
 ```poetry run pyright```
+
+Database setup:
+
+The `sql` folder stores files for initializing the postgres database.
+Use the `table.psql` to create the `processed_data` table.
