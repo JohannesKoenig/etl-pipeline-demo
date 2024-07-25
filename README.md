@@ -1,5 +1,6 @@
 # etl-pipeline-demo
-A demonstration to showcase how to do an extract-transform-load pipeline to bring data from s3 into a Postgres database
+A demonstration to showcase how to do an extract-transform-load pipeline to bring data from s3 into a Postgres database.
+This is based on skills acquired in previous jobs and was not run against AWS for the lack of an enterprise AWS account.
 
 ## Developer Setup
 
