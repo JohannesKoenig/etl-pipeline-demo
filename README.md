@@ -15,3 +15,8 @@ Install dependencies:
 - Go to the `./infrastructure` folder and run `npm install`.
 - Go to the `pipeline` folder and run `poetry install`.
 
+Formatting:
+For the python project go to the `pipeline` folder and execute 
+```poetry run ruff format```
+to format the project. You can run static typechecking with
+```poetry run pyright```
