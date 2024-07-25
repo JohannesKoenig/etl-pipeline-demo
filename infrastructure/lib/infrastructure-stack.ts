@@ -16,7 +16,7 @@ interface StackProps extends cdk.StackProps {
   };
 }
 
-export class InfrastructureStack extends cdk.Stack {
+export class PipelineStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: StackProps) {
     super(scope, id, props);
 
