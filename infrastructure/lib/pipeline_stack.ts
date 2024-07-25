@@ -42,7 +42,7 @@ export class PipelineStack extends cdk.Stack {
       ],
     });
 
-    bucket.grantWrite(role);
+    bucket.grantRead(role);
 
     const lambdaFunction = new lambda.Function(this, "PipelineLambda", {
       functionName: "PipelineLambda",
