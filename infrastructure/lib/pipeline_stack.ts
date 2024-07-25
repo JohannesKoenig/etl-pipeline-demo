@@ -12,6 +12,7 @@ interface StackProps extends cdk.StackProps {
     database_host: string;
     database_name: string;
     database_user: string;
+    database_port: string;
     database_password: string;
   };
 }

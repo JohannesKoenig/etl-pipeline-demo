@@ -16,6 +16,7 @@ new PipelineStack(app, 'PipelineStack', {
   environment: {
     database_host: process.env.DATABASE_HOST ? process.env.DATABASE_HOST : "database.local",
     database_name: process.env.DATABASE_NAME ? process.env.DATABASE_NAME : "database",
+    database_port: process.env.DATABASE_PORT ? process.env.DATABASE_PORT : "5432",
     database_user: process.env.DATABASE_USER ? process.env.DATABASE_USER : "user", // dummy value - no user names need to be stored in plaintext
     database_password: process.env.DATABASE_PASSWORD ? process.env.DATABASE_PASSWORD : "dummy_password", // dummy value - no passwords should be stored in plaintext
   },
