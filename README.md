@@ -6,6 +6,7 @@ A demonstration to showcase how to do an extract-transform-load pipeline to brin
 - Python 3.12
 - [Poetry](https://python-poetry.org/)
 - Node.js
+- postgres
 
 Node.js is mainly used to deploy the infrastructure with cdk.
 
