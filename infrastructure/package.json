@@ -13,7 +13,8 @@
     "@types/node": "20.14.9",
     "aws-cdk": "2.150.0",
     "ts-node": "^10.9.2",
-    "typescript": "~5.5.3"
+    "typescript": "~5.5.3",
+    "@aws-cdk/aws-lambda-python-alpha": "^2.150.0-alpha.0"
   },
   "dependencies": {
     "aws-cdk-lib": "2.150.0",
