@@ -1,0 +1,8 @@
+/* Table to store processed data*/
+CREATE TABLE processed_data (
+    average_temperature REAL,
+    min_temperature REAL,
+    max_temperature REAL,
+    timestamp TIMESTAMP,
+    name TEXT
+);
