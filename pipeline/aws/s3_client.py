@@ -1,11 +1,16 @@
 from __future__ import annotations
+from typing import Any, TYPE_CHECKING
 
 import json
-from typing import Any, TYPE_CHECKING
+import boto3
 
 
 if TYPE_CHECKING:
     from mypy_boto3_s3 import S3Client as BotoClient
+
+
+def get_boto_client() -> BotoClient:
+    return boto3.client("s3")
 
 
 class S3Client:
